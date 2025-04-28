@@ -1,0 +1,76 @@
+.jumbotron-actions {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	background-image: url(./../../icons/svg/jumbotron-actions-bg.svg);
+	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	.action {
+		position: absolute;
+		&-center {
+			top: 30%;
+			left: 30%;
+		}
+	}
+	.top-left {
+		top: -47px;
+		left: -60px;
+	}
+	.bottom-left {
+		bottom: -47px;
+		left: -60px;
+	}
+	.top-right {
+		top: -47px;
+		right: -60px;
+	}
+	.bottom-right {
+		bottom: -47px;
+		right: -60px;
+	}
+}
+
+// Animations
+.coin-rotating {
+	animation: coin-spinner 2s linear infinite;
+	animation-delay: 1.5s;
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	-webkit-animation: coin-spinner 2s linear infinite;
+	-moz-animation: coin-spinner 2s linear infinite;
+}
+
+@-webkit-keyframes coin-spinner {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	40% {
+		-webkit-transform: rotate(360deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes coin-spinner {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	40% {
+		-webkit-transform: rotate(360deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@keyframes coin-spinner {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	40% {
+		-webkit-transform: rotate(360deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}

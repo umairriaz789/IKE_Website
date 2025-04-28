@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Required
+@import "~bootstrap/scss/functions";
+
+// Required
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+// overrides
+@import "./maps.scss";
+
+// Optional Bootstrap components here
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+// etc
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+// Theme related
+body {
+	width: 100vw !important;
+	height: 100vh !important;
+	background-color: red !important;
+	// background: linear-gradient(180deg, #262522 0%, #000000 100%) !important;
+	// color: #ffffff !important;
+	// background-repeat: no-repeat !important;
+	// background-size: contain !important;
+}
+
+.ctable {
+	tbody:before {
+		content: "";
+		border-bottom: 1px solid #1a1917;
+		height: 1px;
+		display: block;
+		width: 100%;
+		position: absolute;
+		top: 32.5px;
+	}
+}

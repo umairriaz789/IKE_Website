@@ -1,0 +1,50 @@
+@import "./variables.scss";
+
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"success": $success,
+	"warning": $warning,
+	"info": $info,
+	"danger": $danger,
+	"black": $black,
+	"white": $white,
+	"leftbar-background": $leftbar-background,
+);
+
+$utilities: (
+	"color": (
+		property: color,
+		class: text,
+		values:
+			map-merge(
+				$theme-colors,
+				(
+					"primary": $primary,
+					"secondary": $secondary,
+					"success": $success,
+					"warning": $warning,
+					"info": $info,
+					"danger": $danger,
+					"leftbar-background": $leftbar-background,
+				)
+			),
+	),
+	"bg": (
+		property: background-color,
+		class: bg,
+		values:
+			map-merge(
+				$theme-colors,
+				(
+					"primary": $primary,
+					"secondary": $secondary,
+					"success": $success,
+					"warning": $warning,
+					"info": $info,
+					"danger": $danger,
+					"leftbar-background": $leftbar-background,
+				)
+			),
+	),
+);

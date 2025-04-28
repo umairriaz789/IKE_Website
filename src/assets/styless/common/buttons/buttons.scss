@@ -1,0 +1,29 @@
+.icon-button {
+	cursor: pointer;
+	&:hover {
+		color: $primary;
+	}
+}
+
+.stepper {
+	&-button {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		&-border-white {
+			border: 1px solid #ffffff;
+		}
+		&-border-gray {
+			border: 1px solid gray;
+		}
+	}
+}
+
+.outline-none {
+	outline: none !important;
+}
+
+.box-shadow-none {
+	box-shadow: none !important;
+}

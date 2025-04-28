@@ -1,0 +1,128 @@
+////////////////////////////////////////////////////////////////////////////////////////
+NeuroCoin Admin Wallet:   0xAfce5BfD87D41789D44911785c1a4B8e91be0B85
+NeuroCoin Admin Private Key:  cdaaf7834053c8af4526feb4ba565bea0cc1b967707883cf537c6a94fb2944ca
+
+
+NeuroCoin Owner:   0x91f894157D57537af28e021d7F72067AF7653841
+NeuroCoin Owner Private Key:   119cd50441d8e6a69c3991151a903b88eb09779f7b8cfd659cd70ad7c8838a04
+
+....................................................................
+you can submit transections by using ARBISCAN interface
+https://arbiscan.io/token/0x5fd3d17bc905f115ad04487886e7fa491b2b99ef
+.....................................................................
+Neuro Coin Token Transfer Events by Contract
+............................................
+https://api.arbiscan.io/api
+   ?module=account
+   &action=tokentx
+   &contractaddress=0x5FD3d17BC905f115ad04487886e7fa491B2B99EF
+   &address=0x91f894157D57537af28e021d7F72067AF7653841
+   &page=1
+   &offset=100
+   &startblock=0
+   &endblock=99999999
+   &sort=asc
+   &apikey=ACEZS8FFAPESA1CR4EYSPN7P8HJSUVWI4X
+
+Get Neuro Coin Contract ABI
+..........................
+https://api.arbiscan.io/api
+   ?module=contract
+   &action=getabi
+   &address=0x5FD3d17BC905f115ad04487886e7fa491B2B99EF
+   &apikey=ACEZS8FFAPESA1CR4EYSPN7P8HJSUVWI4X
+
+Get Contract Creator
+...................
+https://api.arbiscan.io/api
+   ?module=contract
+   &action=getcontractcreation
+   &contractaddresses=0x5FD3d17BC905f115ad04487886e7fa491B2B99EF
+   &apikey=ACEZS8FFAPESA1CR4EYSPN7P8HJSUVWI4X 
+
+Get Neuro Coin Token TotalSupply
+...............................
+https://api.arbiscan.io/api
+   ?module=stats
+   &action=tokensupply
+   &contractaddress=0x5FD3d17BC905f115ad04487886e7fa491B2B99EF
+   &apikey=ACEZS8FFAPESA1CR4EYSPN7P8HJSUVWI4X 
+
+Get Neuro Coin Account Balance
+.............................
+https://api.arbiscan.io/api
+   ?module=account
+   &action=tokenbalance
+   &contractaddress=0x5FD3d17BC905f115ad04487886e7fa491B2B99EF
+   &address=0x91f894157D57537af28e021d7F72067AF7653841
+   &tag=latest&apikey=ACEZS8FFAPESA1CR4EYSPN7P8HJSUVWI4X
+
+Get Neuro Coin Holdinger Address (for this need a Pro Account)
+................................
+https://api.arbiscan.io/api
+    ?module=account
+    &action=addresstokenbalance
+    &address=0x91f894157D57537af28e021d7F72067AF7653841
+    &page=1
+    &offset=2
+    &apikey=ACEZS8FFAPESA1CR4EYSPN7P8HJSUVWI4X
+
+Get Token Holder List by Contract Address (for this need a Pro Account)
+......................................................................
+https://api.arbiscan.io/api
+   ?module=token
+   &action=tokenholderlist
+   &contractaddress=0x5FD3d17BC905f115ad04487886e7fa491B2B99EF
+   &page=1
+   &offset=10
+   &apikey=ACEZS8FFAPESA1CR4EYSPN7P8HJSUVWI4X
+
+Get Token Info by Contract Address (for this need a Pro Account)
+................................................................
+https://api.arbiscan.io/api
+   ?module=token
+   &action=tokeninfo
+   &contractaddress=0x5FD3d17BC905f115ad04487886e7fa491B2B99EF
+   &apikey=ACEZS8FFAPESA1CR4EYSPN7P8HJSUVWI4X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

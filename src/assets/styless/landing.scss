@@ -1,0 +1,75 @@
+.digital-bg-animation {
+	background: url(./../images/digital-bg.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	.animation-wrapper {
+		background-color: rgba(0, 0, 0, 0.8);
+		background-size: cover;
+		background-size: 100% 100%;
+	}
+	.content {
+		padding-bottom: 3em;
+		
+	}
+}
+
+// About page
+.roadmap {
+	position: relative;
+	background: url(../images/svg/timeline-bg.svg);
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 65em;
+	.text {
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 32px;
+		color: #ffffff;
+		opacity: 0.5;
+		text-align: left;
+	}
+	.now {
+		position: absolute;
+		top: 8em;
+		left: 6em;
+	}
+	.milestone1 {
+		position: absolute;
+		top: 21em;
+		left: 20em;
+	}
+	.milestone2 {
+		position: absolute;
+		left: 32em;
+		top: 2em;
+	}
+	.milestone3 {
+		position: absolute;
+		left: 46em;
+		top: 20em;
+	}
+}
+
+.services-side {
+	width: 25em;
+	height: 16em;
+}
+.left-side {
+	margin-right: 4em;
+}
+.right-side {
+	margin-left: 5em;
+}
+
+// .services-left-top {
+// 	position: absolute;
+// 	top: -8em;
+// 	left: 17em;
+// 	width: 25em;
+// }
+// .services-left-bottom {
+// 	position: absolute;
+// }
+
