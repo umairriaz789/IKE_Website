@@ -181,7 +181,7 @@ const SwapPopup = () => {
                   }}
                 />
                 <Modal.Title>
-                  <h4 className="text-[#ac40ea]">Swap Chrysus Coin (CHAU)</h4>
+                  <h4 className="text-[#ac40ea]">Swap Ikemba Coin (IKE)</h4>
                 </Modal.Title>
               </Modal.Header>
               <div

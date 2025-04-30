@@ -125,13 +125,13 @@ export default function UserSideBar() {
                   </Link>
                 </li>
               </Link>
-              <Link to={"/accounts"}>
+              <Link to={"swappopup"}>
                 <li
                   className={currentLink === 4 ? "active" : "none"}
                   onClick={() => setCurrentLink(4)}
                 >
                   <a className="cursor-pointer">
-                    <Link to={"/accounts"}>
+                    <Link to={"swappopup"}>
                       <img
                         className="jumbo-button-icon"
                         src={SwapIcon}
@@ -289,13 +289,13 @@ export default function UserSideBar() {
                 </Link>
               </li>
             </Link>
-            <Link to={"/accounts"}>
+            <Link to={"/swappopup"}>
             {/* <Link to={"swappopup"}> */}
               <li
                 className={currentLink === 4 ? "active" : "none"}
                 onClick={() => setCurrentLink(4)}
               >
-                <Link to={"/accounts"}>
+                <Link to={"/swappopup"}>
                   <a className="cursor-pointer">
                     <img
                       className="jumbo-button-icon"
