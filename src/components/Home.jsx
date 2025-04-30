@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import SwapPopup from "./SwapPopup";
 import SwapSection from "./SwapSection";
 import AiComponent from "./AiComponent";
+import Code from "./Code";
 // import SwapWidgets from "./SwapWidgets";
 
 const Hero = lazy(() => import("./Hero"));
@@ -28,6 +29,9 @@ const Home = () => {
         <div className={`${styles.boxWidth}`}>
           <Suspense>
             <Coin />
+          </Suspense>
+          <Suspense>
+            <Code/>
           </Suspense>
           <Suspense>
             <AiComponent />

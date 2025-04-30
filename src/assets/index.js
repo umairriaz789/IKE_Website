@@ -153,8 +153,10 @@ import ex from "./ex.png";
 import bl from "./bl.jpg";
 import lr from "./lr.png";
 import airobo from "./robo.png";
+import apivector from "./api-vector.png";
 
 export {
+  apivector,
   airobo,
   lr,
   op,
