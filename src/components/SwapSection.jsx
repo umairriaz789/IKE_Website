@@ -14,19 +14,17 @@ const SwapSection = () => (
         className={`w-100 max-w-[582px] flex flex-col align-items-start py-[6px] px-4 bg-gradient-to-b from-[#151515] to-[#323232] rounded-[12px] min-[650px]:mb-3  `}
       >
         <p className={`${styles.paragraph} leading-[24px] text-[16px] mt-5 `}>
-          The <span className="text-[#ac40ea]">Ikemba ecosystem</span> is a
-          blockchain-based financial infrastructure. It utilizes{" "}
-          <span className="text-[#ac40ea]"> Ikemba Protocols</span> to create a
-          secure, transparent, and efficient system for exchanging digital
-          assets and fiat currency. The Ikemba coin ecosystem is powered by{" "}
-          <span className="text-[#ac40ea]">Chrysus tokens</span>, which govern
-          the network, incentivize user engagement, and facilitate transactions
-          within the platform.
+          Emerging <span className="text-[#ac40ea]">Technologies</span> Safiah Protocols to 
+          create a secure, transparent, and efficient system for{" "}
+          <span className="text-[#ac40ea]"> exchanging digital assets</span> 
+          and fiat currency. The IKE coin ecosystem is powered by <span className="text-[#ac40ea]">Ikemba tokens</span>, 
+          which govern the network, incentivize user engagement, and 
+          facilitate transactions within the platform.
         </p>
         <a
           style={{ color: "#846424" }}
           target="_blank"
-          href="https://medium.com/"
+          // href="https://medium.com/"
         >
           <ReadButton
             text="Explore More"

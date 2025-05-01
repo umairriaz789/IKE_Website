@@ -25,14 +25,14 @@ const Ecosystem = () => (
           <span className="text-[#ac40ea]"> Ikemba Protocols</span> to create a
           secure, transparent, and efficient system for exchanging digital
           assets and fiat currency. The Ikemba coin ecosystem is powered by{" "}
-          <span className="text-[#ac40ea]">Chrysus tokens</span>, which govern
+          <span className="text-[#ac40ea]">Ikemba tokens</span>, which govern
           the network, incentivize user engagement, and facilitate transactions
           within the platform.
         </p>
         <a
           style={{ color: "#846424" }}
           target="_blank"
-          href="https://medium.com/"
+          // href="https://medium.com/"
         >
           <ReadButton
             text="Explore More"
