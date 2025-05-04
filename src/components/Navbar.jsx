@@ -100,7 +100,7 @@ const Navbar = () => {
               className="leading-[16px] font-[400] text-[14px] font-poppins mr-4  cursor-pointer text-slate-50"
               style={{ marginLeft: "35px" }}
               href="#"
-              // onClick={() => window.open(Pdf)}
+              onClick={() => window.open(Pdf)}
             >
               WhitePaper
             </li>

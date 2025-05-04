@@ -46,7 +46,7 @@ const AiComponent = () => (
                 </ScrollPage>
                 <ScrollPage>
                     <Animator animation={ZoomInScrollOut}>
-                        <span style={{ fontSize: "40px" }}className="font-neue-plak">Smart Insights, Smarter Investments</span>
+                        <span style={{ fontSize: "30px" }}className="font-neue-plak">Smart Insights, Smarter Investments</span>
                     </Animator>
                 </ScrollPage>
                 <ScrollPage>
