@@ -121,7 +121,7 @@ export default function UserSideBar() {
                       src={MintIcon}
                       alt="leaf-gold"
                     />
-                    <span> Mint </span>
+                    <span>Marketplace</span>
                   </Link>
                 </li>
               </Link>
@@ -153,7 +153,7 @@ export default function UserSideBar() {
                       src={LoanIcon}
                       alt="umbrella-gold"
                     />
-                    <span> Loan</span>
+                    <span>P2P</span>
                   </Link>
                 </li>
               </Link>
@@ -208,8 +208,7 @@ export default function UserSideBar() {
                   </Link>
                 </li>
               </Link> */}
-              <Link to={"virtualcard"}>
-              {/* <Link to={"mintposition"}> */}
+              {/* <Link to={"virtualcard"}>
                 <li
                   className={currentLink === 9 ? "active" : "none"}
                   onClick={() => setCurrentLink(9)}
@@ -225,7 +224,7 @@ export default function UserSideBar() {
                     <span> All Positions </span>
                   </Link>
                 </li>
-              </Link>
+              </Link> */}
             </ul>
           </div>
         </div>
@@ -285,7 +284,7 @@ export default function UserSideBar() {
                     src={MintIcon}
                     alt="leaf-gold"
                   />
-                  <span> Mint</span>
+                  <span>Marketplace</span>
                 </Link>
               </li>
             </Link>
@@ -302,7 +301,7 @@ export default function UserSideBar() {
                       src={SwapIcon}
                       alt="swap-gold"
                     />
-                    <span> Swap</span>
+                    <span>Swap</span>
                   </a>
                 </Link>
               </li>
@@ -319,7 +318,7 @@ export default function UserSideBar() {
                     src={LoanIcon}
                     alt="umbrella-gold"
                   />
-                  <span> Loan</span>
+                  <span>P2P</span>
                 </Link>
               </li>
             </Link>
@@ -373,14 +372,12 @@ export default function UserSideBar() {
                 </Link>
               </li>
             </Link>
-            <Link to={"virtualcard"}>
-            {/* <Link to={"allpositions"}> */}
+            {/* <Link to={"virtualcard"}>
               <li
                 className={currentLink === 8 ? "active" : "none"}
                 onClick={() => setCurrentLink(8)}
               >
                 <Link to={"virtualcard"}>
-                {/* <Link to={"mintposition"}> */}
                   <img
                     className="jumbo-button-icon"
                     src={A}
@@ -389,7 +386,7 @@ export default function UserSideBar() {
                   <span> All Positions </span>
                 </Link>
               </li>
-            </Link>
+            </Link> */}
             <li className="logout">
               <Link to={"/"}>
                 <FiLogOut />
