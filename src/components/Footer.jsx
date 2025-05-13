@@ -18,7 +18,7 @@ const Footer = () => (
         {/* lg:w-[380px] w-[220px] */}
         <div className="border-t-[1px] border-t-[#ac40ea] w-[100%] max-w-[380px] flex flex-wrap  mt-[20px]">
           <p
-            className={`${styles.paragraph} mt-3  font-montserrat text-[14px]`}
+            className={`${styles.paragraph} mt-3  font-poppins text-[14px]`}
           >
             Engineered with excellence by <b> Ikemba AI Based Platform</b>
           </p>
@@ -38,14 +38,14 @@ const Footer = () => (
               {footerLink.links.map((link, linkIndex) => (
                 <li
                   key={linkIndex}
-                  className={`font-poppins font-[400] text-[14px] leading-[16px] opacity-[50%] text-[#FFFFFF] hover:text-baseAssets cursor-pointer ${
+                  className={`font-poppins font-[400] text-[14px] leading-[16px] opacity-[50%] text-[#FFFFFF] hover:text-[#ac40ea] cursor-pointer ${
                     linkIndex !== footerLink.links.length - 1 ? "mb-3" : "mb-0"
                   }`}
                 >
                   <a
                     href={link.path}
                     // target={link.path.startsWith("http") ? "_blank" : ""}
-                    target="_blank"
+                    // target="_blank"
                   >
                     {link.image ? (
                       <img

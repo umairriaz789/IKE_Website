@@ -42,9 +42,9 @@ const Home = () => {
           <Suspense>
             <SwapSection />
           </Suspense>
-          <Suspense>
+          {/* <Suspense>
             <Community />
-          </Suspense>
+          </Suspense> */}
           <Suspense>
             <FeatureBlog />
           </Suspense>

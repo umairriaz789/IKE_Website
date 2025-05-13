@@ -42,16 +42,16 @@ const About = () => {
                 </h1>
 
                 <p
-                style={{fontSize:"1.15rem", color:"#43374a", marginBottom:"24px", lineHeight:"1.7"}} 
+                style={{fontSize:"1.15rem", color:"#c4c4c4", marginBottom:"24px", lineHeight:"1.7"}} 
                 >
                   At <span 
-                  style={{color:"#555", fontWeight:"600"}}
+                  style={{color:"#c4c4c4", fontWeight:"600"}}
                   >Ikemba</span>, we are revolutionizing how people invest in and interact with real-world assets. Leveraging the power of 
                   <span 
-                  style={{fontWeight:"600", color:"#555"}}
+                  style={{fontWeight:"600", color:"#c4c4c4"}}
                   > Blockchain technology</span> and 
                   <span 
-                  style={{fontWeight:"600", color:"#555"}}
+                  style={{fontWeight:"600", color:"#c4c4c4"}}
                   > Artificial intelligence</span>,
                    our platform bridges the gap between traditional real estate markets and the digital future, 
                    making real asset investments accessible, transparent, and efficient for everyone.
@@ -65,7 +65,7 @@ const About = () => {
                 <ol style={{paddingLeft: "20px", color: "#55465e", marginBottom: "30px"}}>
                   <li style={{marginBottom: "16px"}}>
                     <span style={{fontSize: "1.2rem", fontWeight: "bold"}}>Real Assets Tokenization</span>
-                    <p style={{color: "#333", fontSize: "1rem", marginTop: "8px"}}>
+                    <p style={{color: "#c4c4c4", fontSize: "1rem", marginTop: "8px"}}>
                       We transform real estate and other tangible assets into easily tradable digital tokens. By tokenizing real estate, we lower the barriers to entry, allowing investors from around the globe to own fractional shares of premium properties. Our process ensures:
                     </p>
                     <ul style={{color: "#555", fontSize: "1rem", marginTop: "6px", marginBottom: "10px"}}>
@@ -76,7 +76,7 @@ const About = () => {
                   </li>
                   <li style={{marginBottom: "16px"}}>
                     <span style={{fontSize: "1.2rem", fontWeight: "bold"}}>AI-Powered Advisor</span>
-                    <p style={{color: "#333", fontSize: "1rem", marginTop: "8px"}}>
+                    <p style={{color: "#c4c4c4", fontSize: "1rem", marginTop: "8px"}}>
                       Navigating real asset investments can be complex. Our AI Advisor simplifies this journey for both buyers and sellers by:
                     </p>
                     <ul style={{color: "#555", fontSize: "1rem", marginTop: "6px", marginBottom: "10px"}}>
@@ -88,7 +88,7 @@ const About = () => {
                   </li>
                   <li>
                     <span style={{fontSize: "1.2rem", fontWeight: "bold"}}>Peer-to-Peer (P2P) Marketplace</span>
-                    <p style={{color: "#333", fontSize: "1rem", marginTop: "8px"}}>
+                    <p style={{color: "#c4c4c4", fontSize: "1rem", marginTop: "8px"}}>
                       Our decentralized marketplace connects buyers and sellers directly, eliminating middlemen and reducing costs. Key features include:
                     </p>
                     <ul style={{color: "#555", fontSize: "1rem", marginTop: "6px"}}>
@@ -103,10 +103,10 @@ const About = () => {
                 <h2 style={{fontSize: "1.6rem", color: "#55465e", marginTop: "36px", marginBottom: "12px", borderBottom: "2px solid #e8f0fc", paddingBottom: "4px"}}>
                   Our Mission
                 </h2>
-                <p style={{fontSize: "1.1rem", color: "#333", lineHeight: "1.7"}}>
+                <p style={{fontSize: "1.1rem", color: "#c4c4c4", lineHeight: "1.7"}}>
                   We believe in democratizing access to high-value real assets and creating a more inclusive financial ecosystem. By combining 
-                  <span style={{fontWeight: "600", color: "#555"}}> Blockchain’s security</span> with 
-                  <span style={{fontWeight: "600", color: "#555"}}> AI’s intelligence</span>, 
+                  <span style={{fontWeight: "600", color: "#c4c4c4"}}> Blockchain’s security</span> with 
+                  <span style={{fontWeight: "600", color: "#c4c4c4"}}> AI’s intelligence</span>, 
                   we empower individuals and institutions to unlock new opportunities in real estate and 
                   beyond—safely, transparently, and efficiently.
                 </p>

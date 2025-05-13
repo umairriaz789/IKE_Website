@@ -154,8 +154,12 @@ import bl from "./bl.jpg";
 import lr from "./lr.png";
 import airobo from "./robo.png";
 import apivector from "./api-vector.png";
+import LOG from "./LOG.svg";
+import logoss from "./logoss.svg";
 
 export {
+  logoss,
+  LOG,
   apivector,
   airobo,
   lr,

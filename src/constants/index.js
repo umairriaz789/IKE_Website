@@ -29,13 +29,13 @@ export const navLinks = [
     path: "/",
   },
   {
-    name: "Services",
+    name: "AI",
     path: "/",
   },
-  {
-    name: "Governance",
-    path: "/",
-  },
+  // {
+  //   name: "Governance",
+  //   path: "/",
+  // },
   {
     name: "FAQ",
     path: "/",
@@ -150,17 +150,17 @@ export const footerLinks = [
     title: "Learn",
     links: [
       {
-        name: "Whitepaper",
-        path: "/",
+        name: "About Us",
+        path: "/about",
       },
       {
         name: "Blog",
         path: "https://medium.com/",
       },
-      {
-        name: "FAQ",
-        path: "/",
-      },
+      // {
+      //   name: "FAQ",
+      //   path: "/",
+      // },
     ],
   },
   {
@@ -168,19 +168,15 @@ export const footerLinks = [
     links: [
       {
         name: "Services",
-        path: "/",
+        path: "/services",
       },
+      // {
+      //   name: "Governance",
+      //   path: "/",
+      // },
       {
-        name: "Governance",
-        path: "/",
-      },
-      {
-        name: "Ecosystem",
-        path: "https://medium.com/",
-      },
-      {
-        name: "About",
-        path: "/",
+        name: "Contact Us",
+        path: "/contect",
       },
     ],
   },

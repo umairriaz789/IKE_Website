@@ -43,10 +43,10 @@ const FeatureBlog = () => {
           <div className=" flex  max-[800px]:flex-col max-[800px]:items-center gap-3 justify-center  ">
             <div className="sm:w-[50%] xl:w-[100%] flex items-center justify-between ">
               <div className="flex flex-col w-[100%]">
-                <h1 className="text-white leading-[32px] font-[600] text-[24px] font-montserrat">
+                <h1 className="text-white leading-[32px] font-[600] text-[24px] font-poppins">
                   Subscribe
                 </h1>
-                <p className="text-white font-[300] text-[16px] leading-[24px] ">
+                <p className="text-white font-[300] text-[16px] leading-[24px] font-poppins">
                   Enter your email below for the latest blogs and news
                 </p>
                 <div className="max-w-[487px] w-[100%]    flex items-center justify-between border border-yellow-500 rounded-full bg-transparent p-2">
@@ -54,7 +54,7 @@ const FeatureBlog = () => {
                     type="email"
                     id="email-input"
                     placeholder="Email"
-                    className="outline-none border-none pl-4 font-montserrat font-light text-base text-white bg-transparent flex-grow"
+                    className="outline-none border-none pl-4 font-poppins font-light text-base text-white bg-transparent flex-grow"
                     onChange={(e) => setEmail(e.target.value)}
                   />
                   {width <= 460 ? (
@@ -67,7 +67,7 @@ const FeatureBlog = () => {
                   ) : (
                     <>
                       <PrimaryGradientButton
-                        className="text-uppercase"
+                        className="text-uppercase font-poppins"
                         onClick={storeEmail}
                       >
                         Subscribe
@@ -98,12 +98,12 @@ const FeatureBlog = () => {
                             {item.title}
                           </Link>
                         </h4>
-                        <p className="text-white text-base leading-6 ">
+                        <p className="text-white text-base leading-6 font-poppins">
                           Ethereum, and other digital currencies to create a
                           secure, fast, and reliable digital asset for global
                           payments.
                         </p>
-                        <span className="text-[#ac40ea] mb-2 leading-[12.19px] text-[12px] font-[600] font-montserrat">
+                        <span className="text-[#ac40ea] mb-2 leading-[12.19px] text-[12px] font-[600] font-poppins">
                           7 April, 2022
                         </span>
                         <div>

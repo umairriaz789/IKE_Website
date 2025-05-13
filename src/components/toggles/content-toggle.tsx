@@ -34,7 +34,7 @@ export const ContentToggle = ({ title, content }: ContentToggleProps) => {
         <div className=" w-[100%]  gap-2  d-flex flex-row  align-items-center justify-content-between">
           <span
             className={` hover:text-[#ffffff] ${
-              collapse ? "text-[#EDC452]" : "opacity-[50%]"
+              collapse ? "text-white" : "opacity-[50%]"
             } w-[100%] `}
           >
             <div className="flex justify-start">{title}</div>
@@ -56,8 +56,8 @@ export const ContentToggle = ({ title, content }: ContentToggleProps) => {
         onExited={onExited}
       >
         <div
-          className="text-[white] text-justify"
-          style={{ paddingLeft: "2em", paddingBottom: "1em" }}
+          className="text-justify"
+          style={{ paddingLeft: "2em", paddingBottom: "1em", color:"#808080"}}
         >
           {content}
         </div>

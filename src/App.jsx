@@ -36,6 +36,7 @@ import { CCoinGold, groupcoin1 } from "./assets";
 import VirtualCard from "./components/VCards/VirtualCard";
 import { createWeb3Modal, defaultConfig } from "@web3modal/ethers5/react";
 import ViewProposal from "./components/ViewProposal";
+import Ai from "./components/Ai";
 
 const projectId = "7ae37ceba6d88f458689041c037bf6ba";
 
@@ -101,6 +102,8 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/governance" element={<Ecosystems />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/ai" element={<Ai/>} />
+          <Route path="/contect" element={<Ai/>} />
 
           <Route path="/accounts" element={<Accounts />}>
             <Route index element={<Dashboard />} />

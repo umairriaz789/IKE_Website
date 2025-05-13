@@ -19,12 +19,12 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { useAppSelector } from "../reducer/store";
 import { Button } from "react-bootstrap";
+import ComingSoon from "./VCards/ComingSoon";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
-    className={`flex flex-row p-6  items-center py-[6px] px-4 rounded-[12px] ${
-      index !== Service.length - 1 ? "mb-6" : "mb-0"
-    } feature-card`}
+    className={`flex flex-row p-6  items-center py-[6px] px-4 rounded-[12px] ${index !== Service.length - 1 ? "mb-6" : "mb-0"
+      } feature-card`}
   >
     <div
       className={`w-[50px] h-[50px] rounded-full ${styles.flexCenter}`}
@@ -52,9 +52,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 const FeatureContent = ({ icon, title, content, index }) => (
   <div
-    className={`flex flex-row  items-center   rounded-[12px] ${
-      index !== Service.length - 1 ? "mb-6" : "mb-0"
-    } feature-card`}
+    className={`flex flex-row  items-center   rounded-[12px] ${index !== Service.length - 1 ? "mb-6" : "mb-0"
+      } feature-card`}
   >
     <div>
       <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] fontsize">
@@ -79,7 +78,7 @@ const Services = () => {
           Services
         </h1>
       </H4>
-      <section id="home" className={` flex md:flex-row flex-col`}>
+      {/* <section id="home" className={` flex md:flex-row flex-col`}>
         <div className="container">
           <div className="page-content">
             <div className="lg:hidden block">
@@ -92,9 +91,6 @@ const Services = () => {
             <section className="content-inner about-sec lg:block hidden mb-4">
               <div className="  style-1 align-items-center">
                 <div className={`${layout.sectionImg}`}>
-                  {/* {Service.map((feature, index) => (
-                    <FeatureCard key={feature.id} {...feature} index={index} />
-                  ))} */}
                   <div className="absolute top-[0px] left-[-30px]  w-[338px]">
                     <FeatureContent
                       className="w-[50px]"
@@ -184,7 +180,12 @@ const Services = () => {
             </section>
           </div>
         </div>
-      </section>
+      </section> */}
+      <div className="container">
+        <>
+          <ComingSoon/>
+        </>
+      </div>
       <div className={`bg-black   ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />

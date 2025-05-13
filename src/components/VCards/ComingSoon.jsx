@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { vcardcomingsoon } from "../../assets";
 
-const VcardComingSoon = () => {
+const ComingSoon = () => {
   return (
     <>
       <div
@@ -22,7 +22,7 @@ const VcardComingSoon = () => {
   );
 };
 
-export default VcardComingSoon;
+export default ComingSoon;
 
 const GradientH1 = styled.h1`
   background: linear-gradient(to right, #ac40ea, #6b6bdf, #bba9e7);
@@ -32,8 +32,8 @@ const GradientH1 = styled.h1`
 `;
 
 const Section = styled.section`
-  margin-left: 13vw;
-  padding: 2rem;
+//   margin-left: 13vw;
+//   padding: 2rem;
   height: 100%;
 
   background-color: #000000;

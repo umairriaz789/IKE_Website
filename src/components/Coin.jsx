@@ -68,7 +68,7 @@ const Coin = () => (
         About Ikemba Coin (IKC) <br className="sm:block hidden" />
       </h2>
       <p
-        className={`${styles.paragraph} text-justify text-[16px] leading-[24px] max-w-[1075px]  min-[1700px]:max-w-[1500px] min-[2000px]:max-w-[1700px] min-[1700px]:text-[22px] min-[1700px]:leading-[40px] `}
+        className={`${styles.paragraph} font-poppins text-justify text-[16px] leading-[24px] max-w-[1075px]  min-[1700px]:max-w-[1500px] min-[2000px]:max-w-[1700px] min-[1700px]:text-[22px] min-[1700px]:leading-[40px] `}
       >
         Through the power of blockchain technology,
         <span className="text-[#ac40ea]">  Ikemba {""}</span> 

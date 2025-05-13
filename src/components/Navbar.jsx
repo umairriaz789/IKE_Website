@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { close, brightlogo, menu, newWallet, logos} from "../assets";
+import { close, brightlogo, menu, newWallet, LOG, logoss,logos} from "../assets";
 import { navLinks } from "../constants";
 import Pdf from "../assets/pdf/whitepaper.pdf";
 import { Button } from "react-bootstrap";
@@ -26,20 +26,34 @@ const Navbar = () => {
 
   return (
     <div className="mt-2  relative lg:px-[90px] py-3 rounded-md w-[1372px]">
-      <div className="absolute opacity-[0.1] inset-0 lg:bg-gradient-to-r from-[#bd8831] bg-[none] via-[#ffb842] to-[#ffb842] via-[#000000] to-[#bd8831] rounded-5"></div>
+      <div className="absolute opacity-[0.1] inset-0 lg:bg-gradient-to-r from-[#AC40EA] bg-[none] via-[#b4b1f2] to-[#ffb842] via-[#000000] to-[#AC40EA] rounded-5"></div>
       <nav className="relative w-full  flex flex-row  items-center  lg:py-6 py-2 justify-between overflow-hidden lg:items-center ">
         <div>
           <Link to="/">
             <img
               src={logos}
               alt="hoobank"
-              className="w-[137px] h-[33px]"
+              className="w-[145px] h-[37px]"
               onClick={() => setToggle(false)}
             />
           </Link>
         </div>
         <div>
           <ul className="list-none  sm:flex hidden flex-row gap-[1px] justify-between items-center flex-1 ">
+          <li
+              className={
+                "leading-[16px] font-[400] text-[14px] font-poppins mr-4 cursor-pointer"
+              }
+              style={{ marginLeft: "35px" }}
+            >
+              <NavLink
+                onClick={() => setActive("About")}
+                className={`${active === "About" ? "" : "text-slate-50"}`}
+                to="/"
+              >
+                Home
+              </NavLink>
+            </li>
             <li
               className={
                 "leading-[16px] font-[400] text-[14px] font-poppins mr-4 cursor-pointer"
@@ -54,7 +68,7 @@ const Navbar = () => {
                 About
               </NavLink>
             </li>
-            <li
+            {/* <li
               className={
                 "leading-[16px] font-[400] text-[14px] font-poppins mr-4  cursor-pointer"
               }
@@ -65,9 +79,9 @@ const Navbar = () => {
                 className={`${active === "Services" ? "" : "text-slate-50"}`}
                 to="/"
               >
-                Services
+                Blog
               </NavLink>
-            </li>
+            </li> */}
             <li
               className={
                 "leading-[16px] font-[400] text-[14px] font-poppins mr-4  cursor-pointer"
@@ -77,9 +91,9 @@ const Navbar = () => {
               <NavLink
                 onClick={() => setActive("Governance")}
                 className={`${active === "Governance" ? "" : "text-slate-50"}`}
-                to="/"
+                to="/ai"
               >
-                Governance
+                AI
               </NavLink>
             </li>
             <li
@@ -91,7 +105,7 @@ const Navbar = () => {
               <NavLink
                 onClick={() => setActive("FAQ")}
                 className={`${active === "FAQ" ? "" : "text-slate-50"}`}
-                to="/"
+                to="/faq"
               >
                 FAQ
               </NavLink>

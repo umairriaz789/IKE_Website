@@ -41,18 +41,18 @@ const AiComponent = () => (
             <ScrollContainer>
                 <ScrollPage>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-                        <span style={{ fontSize: "30px" }} className="font-neue-plak">Intelligence for Your Tokenized Assets</span>
+                        <span style={{ fontSize: "30px" }} className="font-poppins">Intelligence for Your Tokenized Assets</span>
                     </Animator>
                 </ScrollPage>
                 <ScrollPage>
                     <Animator animation={ZoomInScrollOut}>
-                        <span style={{ fontSize: "30px" }}className="font-neue-plak">Smart Insights, Smarter Investments</span>
+                        <span style={{ fontSize: "30px" }}className="font-poppins">Smart Insights, Smarter Investments</span>
                     </Animator>
                 </ScrollPage>
                 <ScrollPage>
                     <Animator animation={FadeUp}>
                         <Animator animation={MoveIn(-1000, 0)}>
-                            <p className={`${styles.paragraph} leading-[24px] text-[20px] mt-5 font-neue-plak`}>
+                            <p className={`${styles.paragraph} leading-[24px] text-[20px] mt-5 font-poppins`}>
                                 The <span className="text-[#ac40ea]">Blockchain-based</span>
                                 {""} tokenization of real-world assets—like real estate—offers 
                                 unprecedented liquidity, transparency, and global access. However, the complexity 
@@ -60,7 +60,7 @@ const AiComponent = () => (
                             </p>
                         </Animator>
                         <Animator animation={MoveIn(1000, 10)}>
-                            <p className={`${styles.paragraph} leading-[24px] text-[20px] font-neue-plak`}>
+                            <p className={`${styles.paragraph} leading-[24px] text-[20px] font-poppins`}>
                             AI agents are emerging as a key component, facilitating seamless execution, 
                             decision-making, and compliance in decentralized finance (DeFi) and 
                             Real-World Asset (RWA) tokenization. With AI's growing role in predictive modeling, 

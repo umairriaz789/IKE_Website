@@ -110,12 +110,12 @@ export default function UserSideBar() {
                 </li>
               </Link>
 
-              <Link to={"/accounts"}>
+              <Link to={"virtualcard"}>
                 <li
                   className={currentLink === 3 ? "active" : "none"}
                   onClick={() => setCurrentLink(3)}
                 >
-                  <Link to={"/accounts"}>
+                  <Link to={"virtualcard"}>
                     <img
                       className="jumbo-button-icon"
                       src={MintIcon}
@@ -142,12 +142,12 @@ export default function UserSideBar() {
                   </a>
                 </li>
               </Link>
-              <Link to={"/accounts"}>
+              <Link to={"virtualcard"}>
                 <li
                   className={currentLink === 5 ? "active" : "none"}
                   onClick={() => setCurrentLink(5)}
                 >
-                  <Link to={"/accounts"}>
+                  <Link to={"virtualcard"}>
                     <img
                       className="jumbo-button-icon"
                       src={LoanIcon}
@@ -157,12 +157,12 @@ export default function UserSideBar() {
                   </Link>
                 </li>
               </Link>
-              <Link to={"/accounts"}>
+              <Link to={"virtualcard"}>
                 <li
                   className={currentLink === 6 ? "active" : "none"}
                   onClick={() => setCurrentLink(6)}
                 >
-                  <Link to={"/accounts"}>
+                  <Link to={"virtualcard"}>
                     <img
                       width="15"
                       height="15"
@@ -174,12 +174,12 @@ export default function UserSideBar() {
                   </Link>
                 </li>
               </Link>
-              <Link to={"/accounts"}>
+              <Link to={"virtualcard"}>
                 <li
                   className={currentLink === 7 ? "active" : "none"}
                   onClick={() => setCurrentLink(7)}
                 >
-                  <Link to={"/accounts"}>
+                  <Link to={"virtualcard"}>
                     <img
                       width="18"
                       height="6"
@@ -208,13 +208,13 @@ export default function UserSideBar() {
                   </Link>
                 </li>
               </Link> */}
-              <Link to={"/accounts"}>
+              <Link to={"virtualcard"}>
               {/* <Link to={"mintposition"}> */}
                 <li
                   className={currentLink === 9 ? "active" : "none"}
                   onClick={() => setCurrentLink(9)}
                 >
-                  <Link to={"/accounts"}>
+                  <Link to={"virtualcard"}>
                     <img
                       width="15"
                       height="15"
@@ -273,13 +273,13 @@ export default function UserSideBar() {
               </li>
             </Link>
 
-            <Link to={"/accounts"}>
+            <Link to={"virtualcard"}>
             {/* <Link to={"mint"}> */}
               <li
                 className={currentLink === 3 ? "active" : "none"}
                 onClick={() => setCurrentLink(3)}
               >
-                <Link to={"/accounts"}>
+                <Link to={"virtualcard"}>
                   <img
                     className="jumbo-button-icon"
                     src={MintIcon}
@@ -307,13 +307,13 @@ export default function UserSideBar() {
                 </Link>
               </li>
             </Link>
-            <Link to={"/accounts"}>
+            <Link to={"virtualcard"}>
             {/* <Link to={"loan"}> */}
               <li
                 className={currentLink === 5 ? "active" : "none"}
                 onClick={() => setCurrentLink(5)}
               >
-                <Link to={"/accounts"}>
+                <Link to={"virtualcard"}>
                   <img
                     className="jumbo-button-icon"
                     src={LoanIcon}
@@ -323,13 +323,13 @@ export default function UserSideBar() {
                 </Link>
               </li>
             </Link>
-            <Link to={"/accounts"}>
+            <Link to={"virtualcard"}>
             {/* <Link to={"governance"}> */}
               <li
                 className={currentLink === 6 ? "active" : "none"}
                 onClick={() => setCurrentLink(6)}
               >
-                <Link to={"/accounts"}>
+                <Link to={"virtualcard"}>
                   <img
                     className="jumbo-button-icon"
                     src={GI}
@@ -356,12 +356,12 @@ export default function UserSideBar() {
                 </Link>
               </li>
             </Link> */}
-            <Link to={"/accounts"}>
+            <Link to={"virtualcard"}>
               <li
                 className={currentLink === 7 ? "active" : "none"}
                 onClick={() => setCurrentLink(7)}
               >
-                <Link to={"/accounts"}>
+                <Link to={"virtualcard"}>
                   <img
                     width="18"
                     height="6"
@@ -373,13 +373,13 @@ export default function UserSideBar() {
                 </Link>
               </li>
             </Link>
-            <Link to={"/accounts"}>
+            <Link to={"virtualcard"}>
             {/* <Link to={"allpositions"}> */}
               <li
                 className={currentLink === 8 ? "active" : "none"}
                 onClick={() => setCurrentLink(8)}
               >
-                <Link to={"/accounts"}>
+                <Link to={"virtualcard"}>
                 {/* <Link to={"mintposition"}> */}
                   <img
                     className="jumbo-button-icon"
