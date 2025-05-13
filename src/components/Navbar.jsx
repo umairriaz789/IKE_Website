@@ -269,7 +269,7 @@ const Navbar = () => {
                     style={{ marginTop: "20px" }}
                     className="text-[#ac40ea] text-[16px] font-poppins cursor-pointer"
                   >
-                    <NavLink to="/" onClick={() => setToggle(false)}>
+                    <NavLink to="/accounts" onClick={() => setToggle(false)}>
                       Dashboard
                     </NavLink>
                   </li>
