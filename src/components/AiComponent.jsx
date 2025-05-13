@@ -14,30 +14,6 @@ const AiComponent = () => (
             id="product"
             className="flex gap-5 max-[900px]:flex-col min-[2000px]:px-[150px] min-[2200px]:px-[200px]  min-[2400px]:px-[280px] min-[2000px]:justify-between justify-center items-center"
         >
-            {/* <div
-        className={`w-100 max-w-[582px] flex flex-col align-items-start py-[6px] px-4 bg-gradient-to-b from-[#151515] to-[#323232] rounded-[12px] min-[650px]:mb-3  `}
-      >
-        <p className={`${styles.paragraph} leading-[24px] text-[16px] mt-5 `}>
-          The <span className="text-[#ac40ea]">Ikemba ecosystem</span> is a
-          blockchain-based financial infrastructure. It utilizes{" "}
-          <span className="text-[#ac40ea]"> Ikemba Protocols</span> to create a
-          secure, transparent, and efficient system for exchanging digital
-          assets and fiat currency. The Ikemba coin ecosystem is powered by{" "}
-          <span className="text-[#ac40ea]">Chrysus tokens</span>, which govern
-          the network, incentivize user engagement, and facilitate transactions
-          within the platform.
-        </p>
-        <a
-          style={{ color: "#846424" }}
-          target="_blank"
-          href="https://medium.com/"
-        >
-          <ReadButton
-            text="Explore More"
-            className="my-3 mb-5  border-0 lowercase"
-          />
-        </a>
-      </div> */}
             <ScrollContainer>
                 <ScrollPage>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
@@ -52,20 +28,17 @@ const AiComponent = () => (
                 <ScrollPage>
                     <Animator animation={FadeUp}>
                         <Animator animation={MoveIn(-1000, 0)}>
-                            <p className={`${styles.paragraph} leading-[24px] text-[20px] mt-5 font-poppins`}>
+                            <p className={`${styles.paragraph} font-poppins xss:text-2xl xs:text-[20px] sm:text-4xl md:text-[18px] xl:text-1xl xs:mb-5 mb-3`}>
                                 The <span className="text-[#ac40ea]">Blockchain-based</span>
                                 {""} tokenization of real-world assets—like real estate—offers 
-                                unprecedented liquidity, transparency, and global access. However, the complexity 
-                                of due diligence, valuation, and market dynamics can be daunting.
+                                unprecedented liquidity, transparency, and global access.
                             </p>
                         </Animator>
                         <Animator animation={MoveIn(1000, 10)}>
-                            <p className={`${styles.paragraph} leading-[24px] text-[20px] font-poppins`}>
+                            <p className={`${styles.paragraph} font-poppins xss:text-2xl xs:text-[20px] sm:text-4xl md:text-[18px] xl:text-1xl xs:mb-5 mb-3`}>
                             AI agents are emerging as a key component, facilitating seamless execution, 
                             decision-making, and compliance in decentralized finance (DeFi) and 
-                            Real-World Asset (RWA) tokenization. With AI's growing role in predictive modeling, 
-                            fraud detection, liquidity optimization, and smart contract automation, the future 
-                            of asset management is set for unprecedented efficiency and innovation.
+                            Real-World Asset (RWA) tokenization.
                             </p>
                         </Animator>
                         - Ikemba AI Agent -
