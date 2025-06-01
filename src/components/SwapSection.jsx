@@ -5,7 +5,7 @@ import { ReadButton } from "./buttons";
 import SwapingCard from "./SwapingCard";
 
 const SwapSection = () => (
-  <div className="bg-[url('./assets/bg-overlay.png')] lg:bg-contain bg-auto  sm:px-7  mt-5">
+  <div className="bg-[url('./assets/bg-overlay.png')] lg:bg-contain bg-auto  sm:px-1  mt-5">
     <section
       id="product"
       className="flex gap-5 max-[900px]:flex-col min-[2000px]:px-[150px] min-[2200px]:px-[200px]  min-[2400px]:px-[280px] min-[2000px]:justify-between justify-center items-center"
