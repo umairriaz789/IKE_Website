@@ -57,9 +57,9 @@ const testnet = {
 };
 
 const metadata = {
-  name: "Chrysus",
-  description: "God of Gold",
-  url: "https://chrysus.org",
+  name: "Ikemba",
+  description: "Defi",
+  url: "www.ikemba.io",
   icons: ["https://avatars.mywebsite.com/"],
 };
 
